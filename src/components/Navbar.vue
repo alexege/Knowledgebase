@@ -11,6 +11,7 @@ const searchInput = ref({
         <ul>
             <li><router-link to="/">Dashboard</router-link></li>
             <li><router-link to="/about">About</router-link></li>
+            <li><router-link to="/data-structures">Data Structures</router-link></li>
             <input type="search" v-model="searchInput.value">
             {{ searchInput.value }}
         </ul>

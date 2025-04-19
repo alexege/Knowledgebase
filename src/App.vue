@@ -1,8 +1,11 @@
 <script setup>
 import Navbar from "./components/Navbar.vue";
+import SideNav from "./components/SideNav.vue";
 </script>
 
 <template>
   <Navbar />
-  <router-view />
+  <SideNav>
+    <router-view />
+  </SideNav>
 </template>
